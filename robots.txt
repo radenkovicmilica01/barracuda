@@ -1,5 +1,5 @@
 user-agent: *
 Disallow: /slike/
-Allow: /slike/logo.png
+
 
 sitemap: https://radenkovicmilica01.github.io/barracuda/sitemap.xml
