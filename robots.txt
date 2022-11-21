@@ -1,0 +1,4 @@
+user-agent: *
+Disallow: /slike/
+Allow: /slike/logo.png
+
