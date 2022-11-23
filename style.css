@@ -35,7 +35,9 @@ body{
 section{
     padding: 2rem 9%;
 }
-
+form{
+    text-align: center;
+}
 .heading{
     text-align: center;
     font-size: 3.5rem;
