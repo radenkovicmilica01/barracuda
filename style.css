@@ -248,6 +248,7 @@ header .navbar a{
     font-size: 1.6rem;
     color: #333;
     padding: 1rem 0;
+    text-align:center;
     
 }
 .speciality .box-container .box:hover .image{
