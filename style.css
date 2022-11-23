@@ -299,7 +299,7 @@ top: 0;
     padding: 1rem .1rem;
 }
 
-.contact .container{
+ .container{
     position: relative;
     display: flex;
     justify-content: center;
@@ -308,7 +308,7 @@ top: 0;
     height: 100%;
     padding: 20px 100px;
 }
-.contact .container:after{
+ .container:after{
     content: '';
     position: absolute;
     left: 0;
@@ -320,7 +320,7 @@ top: 0;
 /*     z-index: -1; */
 /*     filter: blur(50px); */
 }
-.contact .contact-box{
+.contant-box{
     max-width: 850px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -331,15 +331,15 @@ top: 0;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 19);
 }
 
-.contact .contact-box .right{
+.right{
     padding: 25px 40px;
 }
- .contact .contact-box .right h2{
+ h2{
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
- .contact .contact-box .right h2:after{
+ h2:after{
     content: '';
     position: absolute;
     left: 50%;
@@ -350,7 +350,7 @@ top: 0;
     border-radius: 2px;
     background-color: #2ecc71;
 }
- .contact .contact-box .right .field{
+.field{
     width: 100%;
     padding: 0.5rem 1rem;
     outline: none;
@@ -360,17 +360,17 @@ top: 0;
     margin-bottom: 22px;
     transition: .3s;
 }
- .contact .contact-box .right .field:hover{
+  .field:hover{
     background-color: rgba(0,0,0,.1);
 }
- .contact .contact-box .right .field:focus{
+ .field:focus{
     background-color: #fff;
     border: 2px solid rgba(30,85,250,0.47);
 }
- .contact .contact-box .right .area{
+.area{
     min-height: 150px;
 }
- .contact .contact-box .right .btn{
+ .btn{
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
@@ -381,7 +381,7 @@ top: 0;
     color: #fff;
     transition: .3s;
 }
- .contact .contact-box .right .btn:hover{
+ .btn:hover{
     background-color: #27ae68;
 }
 
