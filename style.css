@@ -163,7 +163,7 @@ header .navbar a{
 @media(max-width:400px){
     html{
         font-size: 50%;
-    }
+    }    
 }  
 .home{
     display: flex;
@@ -385,4 +385,14 @@ top: 0;
 }
  .contact .contact-box .right .btn:hover{
     background-color: #27ae68;
+}
+
+@media screen and (max-width:880px){
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+
+    .left{
+        height: 200px;
+    }
 }
