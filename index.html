@@ -183,38 +183,40 @@
     </section>
 
    
-<div class="container">
-    <div class="contact-box">
-     
-        <div class="right">
-            <h2>NARUCI ONLINE SVOJU PORUDZBINU</h2>
-            <input type="text" class="field" placeholder="ime i prezime" required>
-            <input type="text" class="field" placeholder="email adresa">
-            <input type="text" class="field" placeholder="broj telefona" required>
-            
-            <select name="menu" size="5">  
-                <option value="Barracuda Pizza"> Barracuda Pizza </option>  
-                <option value="Barracuda Giros"> Barracuda Giros </option>  
-                <option value="Barracuda Sendvic"> Barracuda Giros </option>  
-                <option value="Barracuda Palacinka"> Barracuda Palacinka </option>  
-                <option value="Barracuda Burger"> Barracuda Burger </option>  
-                <option value="Barracuda Pomfrit"> Barracuda Pomfrit </option>  
-            </select>  
-            
-            <input type="text" class="field" placeholder="unesite kolicinu" required>
-            
-                <input type="radio" id="opcija1" name="preuzimanje" value="licno" checked>
-                <label for="opcija1">Licno preuzimanje</label> <br><br>
-
-                <input type="radio" id="opcija2" name="preuzimanje" value="dostava" checked>
-                <label for="opcija2">Kucna dostava</label>
-            
-            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Napomena:"></textarea>
-            <button class="btn">Potvrdi svoju porudzbinu!</button>
+<div class="wrapper">
+    <header>Send me a Message</header>
+      <!-- add formspree.io contact form -->
+    <form action="https://formspree.io/f/xwkykkno" method="POST">
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" required name="name" placeholder="Enter your name">
+          <i class='fas fa-user'></i>
         </div>
-        
-    </div>
-</div>
+        <div class="field">
+          <input type="text" required name="email" placeholder="Enter your email">
+          <i class='fas fa-envelope'></i>
+        </div>
+      </div>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="website" placeholder="Enter your website">
+          <i class='fas fa-globe'></i>
+        </div>
+      </div>
+      <div class="message">
+        <textarea required placeholder="Write your message" name="message"></textarea>
+        <i class="material-icons">message</i>
+      </div>
+      <div class="button-area">
+        <button type="submit">Send Message</button>
+        <span></span>
+      </div>
+    </form>
+  </div>
 
 
 
