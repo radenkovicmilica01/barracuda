@@ -334,3 +334,6 @@ header .navbar a:hover {
 	background-color:#333;
 	display:flex;
 }
+.footer .fb-share-button{
+	align-items:center;
+}
